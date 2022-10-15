@@ -2,7 +2,7 @@ const router = require("express").Router();
 const { Category, Product } = require("../../models");
 
 router.get("/", (req, res) => {
-  // The function finds all categories & products
+  // This function finds all categories & products
   Category.findAll({
     include: [
       {
