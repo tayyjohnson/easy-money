@@ -1,5 +1,5 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "easy-money",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/tayyjohnson/easy-money.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "taylor johnson",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.3"
@@ -24,5 +24,9 @@
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.7"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tayyjohnson/easy-money/issues"
+  },
+  "homepage": "https://github.com/tayyjohnson/easy-money#readme"
 }
